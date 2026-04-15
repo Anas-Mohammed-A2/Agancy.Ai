@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
 
-*{
-    font-family: "Manrope", sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Manrope", sans-serif;
+ 
+  box-sizing: border-box;
+}
+
+@theme {
+  /* Brand accent — mid violet, readable on white, not near black */
+  --color-primary: #6366f1;
 }
