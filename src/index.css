@@ -13,3 +13,6 @@
   /* Brand accent — mid violet, readable on white, not near black */
   --color-primary: #6366f1;
 }
+body{
+  overflow-x: hidden;
+}

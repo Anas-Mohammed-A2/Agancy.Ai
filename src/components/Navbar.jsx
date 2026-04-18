@@ -16,7 +16,7 @@ const Navbar = ({ theme, setTheme }) => {
     <nav
       className={`flex justify-between items-center px-4
 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20
-backdrop-blur-xl font-medium border-b border-gray-100 bg-white dark:border-zinc-800/80 dark:bg-gray-900/70 transition-all duration-`}
+backdrop-blur-xl font-medium border-b border-gray-100 bg-white dark:border-zinc-800/80 dark:bg-gray-900/70 transition-all duration-300`}
     >
       <img
         src={theme === 'dark' ? assets.logo_dark : assets.logo}

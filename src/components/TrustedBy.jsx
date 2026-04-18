@@ -7,7 +7,7 @@ gap-10 text-gray-700 dark:text-white/80'>
             <h3 className='font-semibold'>Trusted by Leading Companies</h3>
             <div className="flex items-center justify-center flex-wrap gap-10 m-4">
                 {company_logos.map((img, i) => (
-                    <img src={img} alt={i} className='max-h-5 sm:max-h-6 dark:drop-shadow-xl' />
+                    <img key={i} src={img} alt={i} className='max-h-5 sm:max-h-6 dark:drop-shadow-xl' />
                 ))}
             </div>
         </div>
